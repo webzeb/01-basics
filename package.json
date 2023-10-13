@@ -1,7 +1,7 @@
 {
-  "name": "javascript-for-the-webflow-enthusiast-00",
+  "name": "javascript-bae-01",
   "version": "1.0.0",
-  "description": "Get started with Javascript",
+  "description": "01 Basics: primitive data types, variables, functions, control flow",
   "scripts": {
     "start": "npm install",
     "test:local": "open SpecRunner.html",
