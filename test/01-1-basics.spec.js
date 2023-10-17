@@ -62,6 +62,16 @@ describe("JavaScript Basics Continued", function () {
         expect(console.log).toHaveBeenCalledWith(i);
       }
     });
+    it("should declare a function named triangle that takes no arguements", function () {
+      expect(triangle).toBeDefined();
+      expect(triangle.length).toBe(0);
+    });
+    it("should log a seven line triangle of # characters", function () {
+      triangle();
+      for (let i = 1; i <= 7; i++) {
+        expect(console.log).toHaveBeenCalledWith("#".repeat(i));
+      }
+    });
   });
 
   describe("Task 8: More on Functions", function () {

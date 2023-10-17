@@ -23,6 +23,19 @@ function countByTwos() {
   // 2. Using a while loop, log even numbers from 2 to 20.
 }
 
+function triangle() {
+  // 3. Using loops, output a traingle of '#' characters
+  /*
+    #
+    ##
+    ###
+    ####
+    #####
+    ######
+    #######
+  */
+}
+
 /**
  * Task 8: More on Functions
  */
