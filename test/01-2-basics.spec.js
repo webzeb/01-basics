@@ -34,10 +34,10 @@ describe("Module: Band Name Generator", function () {
     // Test for empty string and null values
     it("should handle empty strings and null values gracefully", function () {
       const bandName1 = generateBandName("", "");
-      expect(bandName1).toBe("The ");
+      expect(bandName1).toBe("The  ");
 
       const bandName2 = generateBandName(null, null);
-      expect(bandName2).toBe("The ");
+      expect(bandName2).toBe("The  ");
 
       const bandName3 = generateBandName("Red", null);
       expect(bandName3).toBe("The Red ");
