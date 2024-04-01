@@ -8,7 +8,7 @@ describe("JavaScript Basics Continued", function () {
   });
 
   describe("Task 6: Control Structures - Conditional Statements", function () {
-    it("should define a variable named studentGrade than is of type number", function () {
+    it("should define a variable named studentGrade that is of type number", function () {
       expect(studentGrade).toBeDefined();
       expect(typeof studentGrade).toBe("number");
     });
